@@ -6,6 +6,6 @@ COPY package.json .
 
 RUN npm install 
 
-COPY server.js .
+COPY src/server.js .
 
 CMD ["npm", "start"]
